@@ -1,8 +1,25 @@
   
-.card-group{
+.card img{
     display: flex;
     justify-content: center;
 }
  body{
     width: 100%;
  }
+ .col1{
+    display: flex;
+    justify-content: center;
+}
+.col2{
+    display: flex;
+    justify-content: center;
+}
+.col3{
+    display: flex;
+    justify-content: center;
+}
+.col4{
+    display: flex;
+    justify-content: center;
+}
+ 
