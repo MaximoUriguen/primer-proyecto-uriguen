@@ -2,3 +2,21 @@
 a:hover{
     color: white;
 }
+
+.card{
+    width: 30%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto{
+    width: 50%;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+}

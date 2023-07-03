@@ -11,9 +11,9 @@
 </head>
 
 <body class="bg-dark">
-  <div class="container">
+  <div class="container border border-danger">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-dark">
+      <nav class="navbar navbar-expand-lg bg-body-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand text-danger" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -47,47 +47,59 @@
         </div>
       </nav>
     </header>
-    <div class="card-group text-end justify-content-start fontfamili-">
-      <div class="card-body bg-dark">
-        <div class="row">
-        <div class="col">
-        <h1>Japon 2019</h1>
-            <img src="/imagenes/logo 2019.jfif" alt="2019">
+
+    <div class="container">
+
+      <div class="border border-danger rounded px-3 py-2">
+        <h1 id="titulo" class="text-light">Mundial Japon 2019</h1>
+        <div class="info p-2 m-2  ">
+          <img src="/imagenes/logo 2019.jfif" alt="2019">
+          <div class="texto  p-2 ">
             <p class="text-light"> este mundial se fue coronada la seleccion de sudafrica superando a Inglaterra por 32
               12 en el tanteador</p>
-            <button class="btn btn-primary">Mas Info</button>
-        
           </div>
-          </div>
-          </div>
+  
         </div>
       </div>
-      <div class="card-body bg-dark ">
-        <h1 id="mundial2007">Mundial 2007</h1>
+    
+
+
+      <div class="info p-2 m-2  border border-danger rounded">
         <img src="/imagenes/pumas 2007.jpg" alt="2007">
-        <p class="text-light"> Este mundial fue el mejor mundial hasta ahora por parte de los pumas saliendo 3ros
-          superando a Francia por 34 - 10 teniendo como capitan y unos de los jugadores mas descables a Agustin Pichot
-        </p>
+
+        <h1 id="mundial2007">Mundial 2007</h1>
+        <div class="texto p-2">
+          <p class="text-light"> Este mundial fue el mejor mundial hasta ahora por parte de los pumas saliendo 3ros
+            superando a Francia por 34 - 10 teniendo como capitan y unos de los jugadores mas descables a Agustin Pichot
+          </p>
+        </div>
+
         <button class="btn btn-primary">Mas Info</button>
       </div>
-      </div>
-      </div>
-      <div class="card-body bg-dark">
-        <h1>Australia 2003</h1>
-        <img src="/imagenes/inglaterra 2003.jpg" alt="2003">
+
+    </div>
+
+    <div class="info  p-2 m-2  border border-danger rounded">
+      <h1>Australia 2003</h1>
+      <img src="/imagenes/inglaterra 2003.jpg" alt="2003">
+      <div class="texto p-2">
         <p class="text-light"> En Australia 2003, Inglaterra cortó con la hegemonía de los seleccionados del Hemisferio
           Sur y en la final superó a Australia por 20 a 17 y se coronó, por primera vez, como campeón del mundo.
         </p>
-        <button class="btn btn-primary">Mas Info</button>
-        <div class="card-body bg-dark">
-          <h1 id="francia2023">Francia 2023</h1>
-          <img src="/imagenes/2023.png" alt="2023">
-          <p class="text-light"> Es el proximo mundial muy esperado por los aficionados teniendo como princial favorita
-            Irlanda </p>
-          <button class="btn btn-primary">Mas Info</button>
-        </div>
       </div>
+      <button class="btn btn-primary">Mas Info</button>
     </div>
+    <div class="card-body bg-dark">
+      <h1 id="francia2023">Francia 2023</h1>
+      <img src="/imagenes/2023.png" alt="2023">
+      <p class="text-light"> Es el proximo mundial muy esperado por los aficionados teniendo como princial favorita
+        Irlanda </p>
+      <button class="btn btn-primary">Mas Info</button>
+    </div>
+  </div>
+  </div>
+
+  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
