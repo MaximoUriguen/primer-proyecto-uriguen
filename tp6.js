@@ -8,6 +8,10 @@ alert (numeroOcho)
 alert (numeroNueve)
 console.log (numeroNueve)
 console.log (numeroOcho)
-alert ('mi edad es'  ( 2023 - 2009 ) ) 
-let variableVeintitres = 2023
-let variableCeronueve = 2009
+let edad = (2023 - 2009) 
+alert ('mi edad es ' + edad ) 
+ let nombre = prompt ( 'cual es tu nombre ' )
+ alert ('hola bienvenid@ ' + nombre)
+ let edadVisitante =  prompt 
+
+
